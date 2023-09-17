@@ -2,70 +2,70 @@
 include('./includes/header.html');
 ?>
 <!-- 1st section -->
-<div id="carouselExampleIndicators" class="carousel slide carousel_container">
+<!-- <div id="carouselExampleIndicators" class="carousel slide carousel_container">
     <div id="carouselExampleIndicators" class="carousel slide">
         <div class="carousel-inner">
             <div class="carousel-item active">
-                <img src="./images/slide1.jpg" class="d-block w-100" alt="slide1" height="850px">
+                <img src="./images/slide1.jpg" class="d-block w-100 carousel_image" alt="slide1" height="850px">
                 <div class="overlay">
                     <div class="content">
-                        <p class="letter_spacing ">FEED YOUR KNOWLEDGE</p>
-                        <h2 class="display-3 bold_font">BEST EDUCATION </h2>
-                        <h2 class="display-3 bold_font">WORDPRESS THEM</h2>
+                        <p class="letter_spacing carousel_p">FEED YOUR KNOWLEDGE</p>
+                        <h2 class=" bold_font carousel_text">BEST EDUCATION </h2>
+                        <h2 class=" bold_font carousel_text">WORDPRESS THEM</h2>
 
-                        <button class="btn  text-light py-2 px-5 btn_carusal bold_font">Ready to Get
+                        <button class="btn  text-light py-2 px-3 btn_carusal bold_font">Ready to Get
                             Started</button>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-</div>
+</div> -->
 
 <!-- 2nd section -->
-<section class="section_bg_linear my-5">
+<!-- <section class="section_bg_linear my-5">
     <div class="container my-5 div_section">
         <div class="row py-5">
-            <div class="col-md-4 col-lg-4 col-sm-12 ">
-                <div class="card div_hover p-3 ">
+            <div class="col-md-4 col-lg-4 col-sm-4 col-xs-4 card_div">
+                <div class="card div_hover">
                     <div class="card-body">
                         <div class="row">
                             <div class="col-md-3">
-                                <i class="fa-solid fa-list-check display-4 py-3 px-2 icon_color"></i>
+                                <i class="fa-solid fa-list-check display-4  icon_color div_card_icon"></i>
                             </div>
                             <div class="col-md-9">
-                                <h2 class="bold_font">Online Courses</h2>
-                                <p class="p_card">Enjoy Fun Learning</p>
+                                <h2 class=" div_card_heading2">Online Courses</h2>
+                                <p class="div_card_text">Enjoy Fun Learning</p>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="col-md-4 col-lg-4 col-sm-12 ">
-                <div class="card div_hover p-3">
+            <div class="col-md-4 col-lg-4 col-sm-4 col-xs-4 card_div">
+                <div class="card div_hover">
                     <div class="card-body">
                         <div class="row">
                             <div class="col-md-3">
-                                <i class="fa-regular fa-file display-4 py-3 px-2 icon_color"></i>
+                                <i class="fa-regular fa-file display-4 icon_color div_card_icon"></i>
                             </div>
                             <div class="col-md-9">
-                                <h2 class="bold_font">Earn Certificate</h2>
-                                <p class="p_card">Enjoy Fun Learning </p>
+                                <h2 class="div_card_heading2">Earn Certificate</h2>
+                                <p class="div_card_text">Enjoy Fun Learning </p>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="col-md-4 col-lg-4 col-sm-12 ">
-                <div class="card div_hover p-3">
+            <div class="col-md-4 col-lg-4 col-sm-4 col-xs-4 card_div">
+                <div class="card div_hover">
                     <div class="card-body">
                         <div class="row">
                             <div class="col-md-3">
-                                <i class="fa-solid fa-graduation-cap display-4 py-3 px-2 icon_color"></i>
+                                <i class="fa-solid fa-graduation-cap display-4 icon_color div_card_icon"></i>
                             </div>
                             <div class="col-md-9">
-                                <h2 class="bold_font">Learn with Fun</h2>
-                                <p class="p_card">Enjoy Fun Learning</p>
+                                <h2 class=" div_card_heading2">Learn with Fun</h2>
+                                <p class="div_card_text">Enjoy Fun Learning</p>
                             </div>
                         </div>
                     </div>
@@ -73,7 +73,7 @@ include('./includes/header.html');
             </div>
         </div>
     </div>
-</section>
+</section> -->
 
 <!-- 3nd section -->
 <section class="my-5 py-5">
@@ -111,7 +111,7 @@ include('./includes/header.html');
 </section>
 
 <!-- 4th section -->
-<section>
+<!-- <section>
     <p class="display-4 bold_font text-center color_linear_gradient">Our Success Fun History</p>
     <p class="letter_spacing bold_font text-center">eStudy Guaranteed Success</p>
     <div class="container my-4">
@@ -151,17 +151,17 @@ include('./includes/header.html');
         </div>
     </div>
 </section>
-<br>
+<br> -->
 
 <!-- 5th section -->
-<section class="section_bg">
+<!-- <section class="section_bg">
     <p class="display-4 bold_font text-center color_linear_gradient">Explore Our Popular Courses</p>
     <p class="letter_spacing bold_font text-center ">eStudy Guaranteed Success</p>
-</section>
+</section> -->
 
 <br>
 <!-- 6th section -->
-<section class="conatiner ">
+<!-- <section class="conatiner ">
     <p class="display-4 bold_font text-center color_linear_gradient">Online Upcoming Events</p>
     <p class="letter_spacing bold_font text-center ">eStudy Guaranteed Success</p>
     <div class="container">
@@ -233,10 +233,10 @@ include('./includes/header.html');
         </div>
     </div>
 </section>
-<br>
+<br> -->
 
 <!-- 7th section -->
-<section>
+<!-- <section>
     <p class="display-4 bold_font text-center color_linear_gradient ">Browse Online Course Categories</p>
     <p class="letter_spacing bold_font text-center ">eStudy Guaranteed Success</p>
     <div class="container my-4">
@@ -340,24 +340,24 @@ include('./includes/header.html');
             </div>
         </div>
     </div>
-</section>
+</section> -->
 
 <!-- 8th section -->
-<section>
+<!-- <section>
     <p class="display-4 bold_font text-center color_linear_gradient ">Team To Help Students</p>
     <p class="letter_spacing bold_font text-center ">eStudy Guaranteed Success</p>
-</section>
+</section> -->
 
 <!-- 9 th section -->
 
-<section>
+<!-- <section>
     <p class="display-4 bold_font text-center color_linear_gradient ">What Students Saying</p>
     <p class="letter_spacing bold_font text-center ">Testimonials</p>
 </section>
-<br>
+<br> -->
 
 <!-- 10th section -->
-<section>
+<!-- <section>
     <p class="display-4 bold_font text-center color_linear_gradient ">Latest News</p>
     <p class="letter_spacing bold_font text-center ">eStudy Guaranteed Success</p>
 
@@ -403,15 +403,15 @@ include('./includes/header.html');
         </div>
     </div>
 
-</section>
+</section> -->
 
 <br><br>
 
-<button class="scroll-to-top" onclick="ScrollToTop()">
+<!-- <button class="scroll-to-top" onclick="ScrollToTop()">
     <span class="fa fa-arrow-up scroll_icon"></span>
-</button>
+</button> -->
 <?php
-include('./includes/footer.html');
+// include('./includes/footer.html');
 ?>
 
 <script src="./js/script.js"></script>

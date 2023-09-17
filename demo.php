@@ -27,9 +27,11 @@
 
 <body>
     <div class="col-mg-6 col-lg-6 col-sm-12 px-5">
-        <img src="./images/library.jpg" alt="" class="img_with_gradient_border" height="700px" width="700px">
+        <!-- <img src="./images/library.jpg" alt="" class="img_with_gradient_border" height="700px" width="700px"> -->
     </div>
 
+
+    <p class="display-4">HASTI</p>
 
     <!-- Add your JavaScript or additional content here -->
 

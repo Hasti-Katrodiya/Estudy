@@ -150,9 +150,6 @@ font-family: 'Raleway', sans-serif;
 
 /* } */
 
-.text_with_gradient_border {
-    /* border-bottom: blue 5px solid; */
-}
 
 
 
@@ -298,18 +295,14 @@ font-family: 'Raleway', sans-serif;
     border: white;
 }
 
-.footer_first_div {
-    /* background: linear-gradient(90deg, #e73167, #2432c9); */
-    /* border-radius: 15px !important; */
-    /* margin-bottom: 50px; */
-}
+
 
 .footer_custom {
     position: relative;
     display: flex;
     flex-direction: column;
     margin-top: -95px;
-    z-index: -1;
+    /* z-index: -1; */
     /* Arrange child divs vertically */
 }
 
@@ -318,7 +311,7 @@ font-family: 'Raleway', sans-serif;
     border-radius: 15px !important;
     color: white;
     padding: 20px;
-    z-index: 1;
+    /* z-index: 1; */
 }
 
 
@@ -329,13 +322,13 @@ font-family: 'Raleway', sans-serif;
     display: flex;
     flex-direction: column;
     margin-top: -35px;
-    z-index: -1;
+    /* z-index: -1; */
 
 }
 
-.nav_container {
+/* .nav_container {
     z-index: 1;
-}
+} */
 
 nav {
     border-radius: 10px;
@@ -411,4 +404,224 @@ nav {
 
 .package-card:hover .package-description {
     bottom: 0;
+}
+
+
+
+
+
+
+
+/* MEDIA QUERY */
+
+@media only screen and (max-width:320px) {
+
+    /* 1st Section - carausal */
+    .carousel_image {
+        height: 350px;
+    }
+
+    .carousel_p {
+        font-size: 10px;
+    }
+
+    .carousel_text {
+        font-size: 25px;
+        letter-spacing: 1px;
+    }
+
+    .btn_carusal {
+        font-size: 13px;
+        /* letter-spacing: 1px; */
+    }
+
+    /* 2nd Section  */
+    .div_card_icon {
+        font-size: 40px;
+        padding: 15px 5px;
+    }
+
+    .div_card_heading2 {
+        font-weight: 800;
+        font-size: 25px;
+    }
+
+    .div_card_text {
+        font-size: 17px;
+        /* letter-spacing: 1px; */
+        font-weight: 300;
+    }
+
+    .card_div {
+        /* margin-top: 5px; */
+        padding: 10px 35px;
+        text-align: center;
+
+    }
+
+}
+
+@media only screen and (min-width:321px) and (max-width:426px) {
+
+    /* 1st Section - carausal */
+    .carousel_image {
+        height: 380px;
+    }
+
+    .carousel_p {
+        font-size: 13px;
+    }
+
+    .carousel_text {
+        font-size: 33px;
+        letter-spacing: 1px;
+    }
+
+    .btn_carusal {
+        font-size: 15px;
+        letter-spacing: 1px;
+    }
+
+    /* 2nd Section  */
+    .div_card_icon {
+        font-size: 40px;
+        padding: 15px 5px;
+    }
+
+    .div_card_heading2 {
+        font-weight: 800;
+        font-size: 25px;
+    }
+
+    .div_card_text {
+        font-size: 17px;
+        /* letter-spacing: 1px; */
+        font-weight: 300;
+    }
+
+    .card_div {
+        /* margin-top: 5px; */
+        padding: 10px 35px;
+        text-align: center;
+
+    }
+}
+
+@media only screen and (min-width:426px) and (max-width:769px) {
+
+    /* 1st Section - carausal */
+    .carousel_image {
+        height: 450px;
+    }
+
+    .carousel_p {
+        font-size: 15px;
+    }
+
+    .carousel_text {
+        font-size: 45px;
+        letter-spacing: 1px;
+    }
+
+    .btn_carusal {
+        font-size: 18px;
+        letter-spacing: 1px;
+    }
+
+    /* 2nd Section  */
+    .div_card_icon {
+        font-size: 32px;
+        padding-top: 8px;
+    }
+
+    .div_card_heading2 {
+        font-weight: 800;
+        font-size: 20px;
+    }
+
+    .div_card_text {
+        font-size: 13px;
+        /* letter-spacing: 1px; */
+        font-weight: 300;
+    }
+}
+
+@media only screen and (min-width:769px) and (max-width:1025px) {
+
+    /* 1st Section - carausal */
+    .carousel_image {
+        height: 500px;
+    }
+
+    .carousel_p {
+        font-size: 18px;
+    }
+
+    .carousel_text {
+        font-size: 50px;
+        letter-spacing: 2px;
+    }
+
+    .btn_carusal {
+        font-size: 20px;
+        letter-spacing: 1px;
+    }
+
+    /* 2nd Section  */
+    .div_card_icon {
+        font-size: 40px;
+        padding-top: 5px;
+    }
+
+    .div_card_heading2 {
+        font-weight: 800;
+        font-size: 25px;
+    }
+
+    .div_card_text {
+        font-size: 16px;
+        letter-spacing: 1px;
+        font-weight: 500;
+    }
+}
+
+@media only screen and (min-width:1026px) and (max-widht:1440px) {
+
+    /* 1st Section - carausal */
+    .carousel_image {
+        height: 700px;
+    }
+
+    .carousel_p {
+        font-size: 20px;
+        letter-spacing: 5px;
+    }
+
+    .carousel_text {
+        font-size: 70px;
+        letter-spacing: 1px;
+    }
+
+    .btn_carusal {
+        font-size: 30px;
+        letter-spacing: 1px;
+    }
+
+    /* 2nd Section  */
+    .div_card_icon {
+        font-size: 60px;
+        padding-top: 5px;
+    }
+
+    .div_card_heading2 {
+        font-weight: 900;
+    }
+
+    .div_card_text {
+        font-size: 20px;
+        letter-spacing: 1px;
+        font-weight: 500;
+    }
+
+     /* 3rd Section - */
 }
