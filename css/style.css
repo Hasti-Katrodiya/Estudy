@@ -57,8 +57,9 @@ font-family: 'Raleway', sans-serif;
     /* Linear gradient color */
 }
 
-.p_card {
-    font-size: 20px;
+.text_counter {
+    color: white;
+    font-size: 30px;
 }
 
 .icon_color::before {
@@ -140,6 +141,7 @@ font-family: 'Raleway', sans-serif;
 .div_courses {
     background-color: #F2F3F8 !important;
     border: none;
+    margin-bottom: 30px;
 }
 
 /* footer */
@@ -208,16 +210,25 @@ font-family: 'Raleway', sans-serif;
     background-color: #FFBB02;
     transform: scale(1);
     transition: transform 0.3s ease, background-color 0.3s ease, color 0.3s ease;
-    /* Add transitions for scale, background-color, and color */
 }
 
 .btn_carusal:hover {
     color: white !important;
     background: linear-gradient(90deg, #e73167, #2432c9) !important;
     transform: scale(1.1);
-    /* Scale the button up slightly on hover */
 }
 
+.btn_divContent {
+    /* background-color: #FFBB02; */
+    transform: scale(1);
+    transition: transform 0.3s ease, background-color 0.3s ease, color 0.3s ease;
+}
+
+.btn_divContent:hover {
+    color: white !important;
+    background: linear-gradient(90deg, #e73167, #2432c9) !important;
+    transform: scale(1.1);
+}
 
 
 .color_linear_gradient {
@@ -302,7 +313,7 @@ font-family: 'Raleway', sans-serif;
     display: flex;
     flex-direction: column;
     margin-top: -95px;
-    /* z-index: -1; */
+    z-index: -1;
     /* Arrange child divs vertically */
 }
 
@@ -311,7 +322,7 @@ font-family: 'Raleway', sans-serif;
     border-radius: 15px !important;
     color: white;
     padding: 20px;
-    /* z-index: 1; */
+    z-index: 1;
 }
 
 
@@ -344,7 +355,7 @@ nav {
     right: 50px;
     color: white;
     background: linear-gradient(90deg, #e73167, #2432c9);
-    border: rgb(82, 76, 76) 3px solid;
+    /* border: rgb(82, 76, 76) 3px solid; */
     border-radius: 50%;
     cursor: pointer;
 }
@@ -355,16 +366,6 @@ nav {
     text-align: center;
 }
 
-@media only screen and (max-width:768px) {}
-
-
-
-
-
-
-
-
-
 
 /* section 10 */
 .package-card {
@@ -373,11 +374,12 @@ nav {
     margin: 20px;
     overflow: hidden;
     transition: transform 0.3s;
+    border: none;
 }
 
 .package-img {
     width: 100%;
-    height: 100%;
+    height: 400px !important;
     margin: 0 auto 20px;
     display: block;
 }
@@ -389,7 +391,7 @@ nav {
 
 .package-description {
     position: absolute;
-    bottom: -100%;
+    bottom: -60%;
     left: 0;
     width: 100%;
     background: linear-gradient(90deg, #e73167, #2432c9);
@@ -459,6 +461,30 @@ nav {
 
     }
 
+    /* 4th Section - carausal */
+    .text_counter {
+        font-size: 15px !important;
+    }
+
+    /* 6th section */
+    .text_6th {
+        font-size: 17px !important;
+    }
+
+    /* 10th section */
+
+    .package-description {
+        bottom: -53%;
+    }
+
+    .card-text {
+        font-size: 10px;
+    }
+
+    /* footer */
+    .footer_custom {
+        text-align: center;
+    }
 }
 
 @media only screen and (min-width:321px) and (max-width:426px) {
@@ -490,7 +516,7 @@ nav {
 
     .div_card_heading2 {
         font-weight: 800;
-        font-size: 25px;
+        font-size: 10px;
     }
 
     .div_card_text {
@@ -504,6 +530,26 @@ nav {
         padding: 10px 35px;
         text-align: center;
 
+    }
+
+    /* 4th Section - carausal */
+    .text_counter {
+        font-size: 17px !important;
+    }
+
+    /* 6th section */
+    .text_6th {
+        font-size: 20px !important;
+    }
+
+    /* 10th section */
+
+    .package-description {
+        bottom: -53%;
+    }
+
+    .card-text {
+        font-size: 10px;
     }
 }
 
@@ -544,6 +590,26 @@ nav {
         /* letter-spacing: 1px; */
         font-weight: 300;
     }
+
+    /* 4th Section - carausal */
+    .text_counter {
+        font-size: 25px !important;
+    }
+
+    /* 6th section */
+    .text_6th {
+        font-size: 20px !important;
+    }
+
+    /* 10th section */
+
+    .package-description {
+        bottom: -67%;
+    }
+
+    .card-text {
+        font-size: 25px;
+    }
 }
 
 @media only screen and (min-width:769px) and (max-width:1025px) {
@@ -583,6 +649,28 @@ nav {
         letter-spacing: 1px;
         font-weight: 500;
     }
+
+    /* 4th Section - carausal */
+    .text_counter {
+        font-size: 25px !important;
+    }
+
+    /* 6th section */
+    .text_6th {
+        font-size: 15px !important;
+    }
+
+
+    /* 10th section */
+
+    .package-description {
+        bottom: -54%;
+    }
+
+    .card-text {
+        font-size: 10px;
+    }
+
 }
 
 @media only screen and (min-width:1026px) and (max-widht:1440px) {
@@ -623,5 +711,33 @@ nav {
         font-weight: 500;
     }
 
-     /* 3rd Section - */
+    /* 3rd Section - */
+    /* .h2_divContent {
+        font-size: 40px;
+    }
+
+    .p_divContent {
+        font-size: 20px;
+    }
+
+    .img_divContent {
+        height: 700px;
+    }
+
+    .btn_divContent {
+        font-size: 25px;
+    } */
+
+
+    /* 6th section */
+
+
+}
+
+@media only screen and (min-width:1441px) {
+    .text_6th {
+        font-size: 25px !important;
+    }
+
+
 }
