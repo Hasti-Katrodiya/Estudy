@@ -2,7 +2,7 @@
 include('./includes/header.html');
 ?>
 <!-- 1st section complete-->
-<!-- <div id="carouselExampleIndicators" class="carousel slide carousel_container">
+<div id="carouselExampleIndicators" class="carousel slide carousel_container">
     <div id="carouselExampleIndicators" class="carousel slide">
         <div class="carousel-inner">
             <div class="carousel-item active">
@@ -20,10 +20,10 @@ include('./includes/header.html');
             </div>
         </div>
     </div>
-</div> -->
-
+</div>
+<br><br>
 <!-- 2nd section complete-->
-<!-- <section class="section_bg_linear my-5">
+<section class="section_bg_linear my-5">
     <div class="container my-5 div_section">
         <div class="row py-5">
             <div class="col-md-4 col-lg-4 col-sm-4 col-xs-4 card_div">
@@ -73,10 +73,10 @@ include('./includes/header.html');
             </div>
         </div>
     </div>
-</section> -->
-
+</section>
+<br><br><br>
 <!-- 3nd section -->
-<!-- <section>
+<section>
     <div class="container">
         <div class="row ">
             <div class="col-lg-6 col-md-6 col-sm-12 slide-right">
@@ -105,10 +105,10 @@ include('./includes/header.html');
             </div>
         </div>
     </div>
-</section> -->
+</section>
 <br><br><br><br>
 <!-- 4th section  complete responsive-->
-<!-- <section class="container">
+<section class="container">
     <p class="display-4 bold_font text-center color_linear_gradient">Our Success Fun History</p>
     <p class="letter_spacing bold_font text-center">eStudy Guaranteed Success</p>
     <div class=" my-4">
@@ -147,19 +147,19 @@ include('./includes/header.html');
             </div>
         </div>
     </div>
-</section> -->
+</section>
 
-<br>
+<br><br><br>
 
 <!-- 5th section complete-->
-<!-- <section class="section_bg">
+<section class="section_bg">
     <p class="display-4 bold_font text-center color_linear_gradient">Explore Our Popular Courses</p>
     <p class="letter_spacing bold_font text-center ">eStudy Guaranteed Success</p>
     <div class="slider-container div_slider">
         <div class="slider-container text-center">
             <div class="slider">
 
-                <div class="card_slider my-5">
+                <div class="card_slider my-5 mx-2">
                     <div class="card">
                         <img src="./images/card1.jpg" class="card-img-top" alt="...">
                         <div class="card-body body_slider ">
@@ -184,7 +184,7 @@ include('./includes/header.html');
                     </div>
                 </div>
 
-                <div class="card_slider my-5">
+                <div class="card_slider my-5  mx-2">
                     <div class="card">
                         <img src="./images/card2.jpg" class="card-img-top" alt="...">
                         <div class="card-body body_slider ">
@@ -208,7 +208,7 @@ include('./includes/header.html');
                         </div>
                     </div>
                 </div>
-                <div class="card_slider my-5">
+                <div class="card_slider my-5  mx-2">
                     <div class="card">
                         <img src="./images/card3.jpg" class="card-img-top" alt="...">
                         <div class="card-body body_slider ">
@@ -232,7 +232,7 @@ include('./includes/header.html');
                         </div>
                     </div>
                 </div>
-                <div class="card_slider my-5">
+                <div class="card_slider my-5  mx-2">
                     <div class="card">
                         <img src="./images/card4.jpg" class="card-img-top" alt="...">
                         <div class="card-body body_slider ">
@@ -256,7 +256,7 @@ include('./includes/header.html');
                         </div>
                     </div>
                 </div>
-                <div class="card_slider my-5">
+                <div class="card_slider my-5  mx-2">
                     <div class="card">
                         <img src="./images/card5.jpg" class="card-img-top" alt="...">
                         <div class="card-body body_slider ">
@@ -288,10 +288,10 @@ include('./includes/header.html');
             <br><br><br>
         </div>
     </div>
-</section> -->
-<br>
+</section>
+<br><br><br>
 <!-- 6th section complete-->
-<!-- <section class="container">
+<section class="container">
     <p class="display-4 bold_font text-center color_linear_gradient ">Online Upcoming Events</p>
     <p class="letter_spacing bold_font text-center ">eStudy Guaranteed Success</p>
     <div class="container">
@@ -373,11 +373,11 @@ include('./includes/header.html');
             </div>
         </div>
     </div>
-</section> -->
+</section>
+<br><br><br>
 <br>
-
 <!-- 7th section complete -->
-<!-- <section>
+<section>
     <div class="container">
         <div class="text-center">
             <p class="display-4 font-weight-bold color_linear_gradient">Browse Online Course Categories</p>
@@ -458,17 +458,17 @@ include('./includes/header.html');
             </div>
         </div>
     </div>
-</section> -->
-
+</section>
+<br><br>
 <br>
 <!-- 8th section -->
 <!-- <section>
     <p class="display-4 bold_font text-center color_linear_gradient ">Team To Help Students</p>
     <p class="letter_spacing bold_font text-center ">eStudy Guaranteed Success</p>
-</section> -->
-<br>
+</section>
+<br> -->
 <!-- 9 th section complete -->
-<!-- <section class="section_bg">
+<section class="section_bg">
     <p class="display-4 bold_font text-center color_linear_gradient">Explore Our Popular Courses</p>
     <p class="letter_spacing bold_font text-center ">eStudy Guaranteed Success</p>
 
@@ -536,12 +536,12 @@ include('./includes/header.html');
             </div>
         </div>
     </div>
-</section> -->
-
+</section>
 <br>
-
+<br>
+<br>
 <!-- 10th section complete -->
-<!-- <section>
+<section>
     <div class="container">
         <div class="text-center">
             <p class="display-4 font-weight-bold color_linear_gradient">Latest News</p>
@@ -604,7 +604,7 @@ include('./includes/header.html');
             </div>
         </div>
     </div>
-</section> -->
+</section>
 <br><br>
 
 <button class="scroll-to-top" onclick="ScrollToTop()">

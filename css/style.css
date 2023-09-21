@@ -124,6 +124,8 @@ font-family: 'Raleway', sans-serif;
 .btn_navs {
     color: white !important;
     font-size: 20px;
+    /* padding: 4px auto; */
+    margin: 10px auto;
 }
 
 .nav-link:hover {
@@ -142,6 +144,10 @@ font-family: 'Raleway', sans-serif;
     background-color: #F2F3F8 !important;
     border: none;
     margin-bottom: 30px;
+}
+
+.nav_style {
+    border-radius: 8px;
 }
 
 /* footer */
@@ -308,8 +314,12 @@ font-family: 'Raleway', sans-serif;
 }
 
 .mail_input {
-    font-size: 15px;
+    font-size: 20px;
     font-weight: 800;
+    width: 400px;
+    height: 50px;
+    padding: 5px;
+    border-radius: 6px;
     border: none;
 }
 
@@ -325,7 +335,6 @@ font-family: 'Raleway', sans-serif;
     flex-direction: column;
     margin-top: -95px;
     z-index: -1;
-    /* Arrange child divs vertically */
 }
 
 .footer_first_div {
@@ -376,6 +385,8 @@ nav {
     padding: 15px;
     text-align: center;
 }
+
+
 
 
 /* section 10 */
@@ -501,6 +512,29 @@ nav {
     .footer_firstDiv_text {
         font-size: 20px;
     }
+
+    .mail_input {
+        font-size: 17px;
+        font-weight: 600;
+        width: 160px;
+        height: 30px;
+        padding: 5px;
+    }
+
+    /* nav 1*/
+    .display_hidden {
+        display: none;
+    }
+
+    .btn_navs {
+        display: block;
+    }
+
+    .nav-link {
+        margin: 3px auto !important;
+        text-align: center !important;
+    }
+
 }
 
 @media only screen and (min-width:321px) and (max-width:426px) {
@@ -570,7 +604,41 @@ nav {
 
     /* footer */
     .footer_firstDiv_text {
-        font-size: 20px;
+        font-size: 25px !important;
+    }
+
+    .footer_text_mq {
+        text-align: center !important;
+    }
+
+    .footer_logo {
+        margin: auto 80px !important;
+    }
+
+    .footer_icon_text {
+        font-size: 17px;
+    }
+
+    .mail_input {
+        font-size: 17px;
+        font-weight: 800;
+        width: 300px;
+        height: 50px;
+        padding: 5px;
+    }
+
+    /* nav 1*/
+    .display_hidden {
+        display: none;
+    }
+
+    .btn_navs {
+        display: block;
+    }
+
+    .nav-link {
+        margin: 3px auto !important;
+        text-align: center !important;
     }
 }
 
@@ -637,6 +705,41 @@ nav {
         font-size: 20px !important;
     }
 
+    .footer_text_mq {
+        text-align: center !important;
+    }
+
+    .color_violate {
+        font-weight: 900;
+        font-size: 25px;
+        line-height: 1.2em;
+    }
+
+    .footer_icon_text {
+        font-size: 17px;
+    }
+
+    .mail_input {
+        font-size: 17px;
+        font-weight: 800;
+        width: 300px;
+        height: 50px;
+        padding: 5px;
+    }
+
+    /* nav 1*/
+    .display_hidden {
+        display: none;
+    }
+
+    .btn_navs {
+        display: block;
+    }
+
+    .nav-link {
+        margin: 3px auto !important;
+        text-align: center !important;
+    }
 }
 
 @media only screen and (min-width:769px) and (max-width:1025px) {
@@ -700,9 +803,31 @@ nav {
 
     /* footer */
     .footer_firstDiv_text {
+        font-size: 23px;
+    }
+
+    .color_violate {
+        font-weight: 800;
+        font-size: 30px;
+        /* line-height: 0.8em; */
+    }
+
+    .footer_icon_text {
+        font-size: 17px;
+    }
+
+    .footer_logo {
+        width: 150px;
+    }
+
+    /* nav 1*/
+    .custom_text_color {
         font-size: 20px;
     }
 
+    .img_nav1 {
+        height: 35px;
+    }
 }
 
 @media only screen and (min-width:1026px) and (max-widht:1440px) {
@@ -835,4 +960,11 @@ nav {
     margin-left: 20px;
     margin-top: 20px;
     /* Add margin-top to create space */
+}
+
+
+.card_footer_input {
+    background: white;
+    border: none;
+    border-radius: 0%;
 }
