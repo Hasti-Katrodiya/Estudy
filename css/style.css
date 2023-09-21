@@ -153,6 +153,13 @@ font-family: 'Raleway', sans-serif;
 /* } */
 
 
+.row_slider {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
 
 
 
@@ -274,6 +281,10 @@ font-family: 'Raleway', sans-serif;
     border: none;
 }
 
+.card_header:hover {
+    background-color: rgba(220, 214, 214, 0.539) !important;
+}
+
 .color_violate {
     color: #9202B7;
     font-weight: 800;
@@ -333,13 +344,13 @@ font-family: 'Raleway', sans-serif;
     display: flex;
     flex-direction: column;
     margin-top: -35px;
-    /* z-index: -1; */
+    z-index: -1;
 
 }
 
-/* .nav_container {
+.nav_container {
     z-index: 1;
-} */
+}
 
 nav {
     border-radius: 10px;
@@ -485,6 +496,11 @@ nav {
     .footer_custom {
         text-align: center;
     }
+
+    /* footer */
+    .footer_firstDiv_text {
+        font-size: 20px;
+    }
 }
 
 @media only screen and (min-width:321px) and (max-width:426px) {
@@ -551,6 +567,11 @@ nav {
     .card-text {
         font-size: 10px;
     }
+
+    /* footer */
+    .footer_firstDiv_text {
+        font-size: 20px;
+    }
 }
 
 @media only screen and (min-width:426px) and (max-width:769px) {
@@ -610,6 +631,12 @@ nav {
     .card-text {
         font-size: 25px;
     }
+
+    /* footer */
+    .footer_firstDiv_text {
+        font-size: 20px !important;
+    }
+
 }
 
 @media only screen and (min-width:769px) and (max-width:1025px) {
@@ -669,6 +696,11 @@ nav {
 
     .card-text {
         font-size: 10px;
+    }
+
+    /* footer */
+    .footer_firstDiv_text {
+        font-size: 20px;
     }
 
 }
@@ -740,4 +772,67 @@ nav {
     }
 
 
+}
+
+
+
+
+/* slider  */
+.div_slider {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+.slider {
+    width: 70%;
+    margin: 0 auto;
+}
+
+.card_slider {
+    margin-top: 20px;
+}
+
+.body_slider:hover {
+    background-color: rgba(165, 164, 164, 0.388);
+}
+
+.btn_slider {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background: linear-gradient(to bottom, #2532c8, #e53168);
+    color: white;
+    border: none;
+    cursor: pointer;
+
+}
+
+.btn_card_slider {
+    font-size: 20px;
+    border: 1px solid #e53168;
+    color: black;
+    font-weight: 800;
+}
+
+.btn_card_slider:hover {
+    color: white;
+    background: linear-gradient(to left, #2532c8, #e53168);
+}
+
+.profile-card {
+    padding: 20px;
+    border-radius: 8px;
+    background-color: rgba(230, 221, 221, 0.146);
+}
+
+.profile-img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.profile-info {
+    margin-left: 20px;
+    margin-top: 20px;
+    /* Add margin-top to create space */
 }

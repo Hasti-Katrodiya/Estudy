@@ -1,7 +1,7 @@
 <?php
 include('./includes/header.html');
 ?>
-<!-- 1st section -->
+<!-- 1st section complete-->
 <!-- <div id="carouselExampleIndicators" class="carousel slide carousel_container">
     <div id="carouselExampleIndicators" class="carousel slide">
         <div class="carousel-inner">
@@ -10,8 +10,8 @@ include('./includes/header.html');
                 <div class="overlay">
                     <div class="content">
                         <p class="letter_spacing carousel_p">FEED YOUR KNOWLEDGE</p>
-                        <h2 class=" bold_font carousel_text">BEST EDUCATION </h2>
-                        <h2 class=" bold_font carousel_text">WORDPRESS THEM</h2>
+                        <h2 class="display-4 bold_font carousel_text">BEST EDUCATION </h2>
+                        <h2 class="display-4 bold_font carousel_text">WORDPRESS THEM</h2>
 
                         <button class="btn  text-light py-2 px-3 btn_carusal bold_font">Ready to Get
                             Started</button>
@@ -22,7 +22,7 @@ include('./includes/header.html');
     </div>
 </div> -->
 
-<!-- 2nd section -->
+<!-- 2nd section complete-->
 <!-- <section class="section_bg_linear my-5">
     <div class="container my-5 div_section">
         <div class="row py-5">
@@ -100,13 +100,13 @@ include('./includes/header.html');
             </div>
             <div class="col-lg-6 col-md-6 col-sm-12 slide-left">
 
-                <img src="./images/library.jpg" alt="" class="img_divContent">
+                <img src="./images/library.jpg" alt="" class="img_divContent img-fluid">
 
             </div>
         </div>
     </div>
 </section> -->
-
+<br><br><br><br>
 <!-- 4th section  complete responsive-->
 <!-- <section class="container">
     <p class="display-4 bold_font text-center color_linear_gradient">Our Success Fun History</p>
@@ -151,12 +151,144 @@ include('./includes/header.html');
 
 <br>
 
-<!-- 5th section -->
-<section class="section_bg">
+<!-- 5th section complete-->
+<!-- <section class="section_bg">
     <p class="display-4 bold_font text-center color_linear_gradient">Explore Our Popular Courses</p>
     <p class="letter_spacing bold_font text-center ">eStudy Guaranteed Success</p>
-</section>
+    <div class="slider-container div_slider">
+        <div class="slider-container text-center">
+            <div class="slider">
 
+                <div class="card_slider my-5">
+                    <div class="card">
+                        <img src="./images/card1.jpg" class="card-img-top" alt="...">
+                        <div class="card-body body_slider ">
+                            <h3 class="card-title bold_font">Improve Editing Skills</h3>
+                            <hr>
+                            <div class="row_slider">
+
+                                <p class="icon_color_red" style="font-size:18px; padding-top:10px;">
+                                    by KarinaMoore
+                                </p>
+                                <div class="rating text-warning text-right">
+                                    ★★★★☆
+                                </div>
+                            </div>
+                            <p class="">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate molestiae
+                                sapiente pariatur doloremque rem.</p>
+
+                            <hr>
+
+                            <a href="#" class="btn  btn_card_slider">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card_slider my-5">
+                    <div class="card">
+                        <img src="./images/card2.jpg" class="card-img-top" alt="...">
+                        <div class="card-body body_slider ">
+                            <h3 class="card-title bold_font">Improve Editing Skills</h3>
+                            <hr>
+                            <div class="row_slider">
+
+                                <p class="icon_color_red" style="font-size:18px; padding-top:10px;">
+                                    by KarinaMoore
+                                </p>
+                                <div class="rating text-warning text-right">
+                                    ★★★★☆
+                                </div>
+                            </div>
+                            <p class="">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate molestiae
+                                sapiente pariatur doloremque rem.</p>
+
+                            <hr>
+
+                            <a href="#" class="btn  btn_card_slider">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="card_slider my-5">
+                    <div class="card">
+                        <img src="./images/card3.jpg" class="card-img-top" alt="...">
+                        <div class="card-body body_slider ">
+                            <h3 class="card-title bold_font">Improve Editing Skills</h3>
+                            <hr>
+                            <div class="row_slider">
+
+                                <p class="icon_color_red" style="font-size:18px; padding-top:10px;">
+                                    by KarinaMoore
+                                </p>
+                                <div class="rating text-warning text-right">
+                                    ★★★★☆
+                                </div>
+                            </div>
+                            <p class="">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate molestiae
+                                sapiente pariatur doloremque rem.</p>
+
+                            <hr>
+
+                            <a href="#" class="btn  btn_card_slider">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="card_slider my-5">
+                    <div class="card">
+                        <img src="./images/card4.jpg" class="card-img-top" alt="...">
+                        <div class="card-body body_slider ">
+                            <h3 class="card-title bold_font">Improve Editing Skills</h3>
+                            <hr>
+                            <div class="row_slider">
+
+                                <p class="icon_color_red" style="font-size:18px; padding-top:10px;">
+                                    by KarinaMoore
+                                </p>
+                                <div class="rating text-warning text-right">
+                                    ★★★★☆
+                                </div>
+                            </div>
+                            <p class="">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate molestiae
+                                sapiente pariatur doloremque rem.</p>
+
+                            <hr>
+
+                            <a href="#" class="btn  btn_card_slider">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="card_slider my-5">
+                    <div class="card">
+                        <img src="./images/card5.jpg" class="card-img-top" alt="...">
+                        <div class="card-body body_slider ">
+                            <h3 class="card-title bold_font">Improve Editing Skills</h3>
+                            <hr>
+                            <div class="row_slider">
+
+                                <p class="icon_color_red" style="font-size:18px; padding-top:10px;">
+                                    by KarinaMoore
+                                </p>
+                                <div class="rating text-warning text-right">
+                                    ★★★★☆
+                                </div>
+                            </div>
+                            <p class="">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate molestiae
+                                sapiente pariatur doloremque rem.</p>
+
+                            <hr>
+
+                            <a href="#" class="btn  btn_card_slider">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+            <button class="prev-button btn_slider"><i class="fas fa-chevron-left"></i></button>
+            <button class="next-button btn_slider"><i class="fas fa-chevron-right"></i></button>
+            <br><br><br>
+        </div>
+    </div>
+</section> -->
 <br>
 <!-- 6th section complete-->
 <!-- <section class="container">
@@ -172,7 +304,7 @@ include('./includes/header.html');
                                 <img src="./images/img_blog.jpg" alt="Image Description" class=" container img-fluid"
                                     height="100px">
                             </div>
-                            <div class="col-md-6 col-lg-6 col-sm-12 ">
+                            <div class="col-md-6 col-lg-6 col-sm-12 card_event_div ">
                                 <p class="text_6th ">Your content goes here. Lorem, ipsum dolor sit amet
                                     consectetur
                                     adipisicing elit.
@@ -191,7 +323,7 @@ include('./includes/header.html');
                                 <img src="./images/img_blog.jpg" alt="Image Description" class=" container img-fluid"
                                     height="100px">
                             </div>
-                            <div class="col-md-6 col-lg-6 col-sm-12 ">
+                            <div class="col-md-6 col-lg-6 col-sm-12  card_event_div">
                                 <p class="text_6th ">Your content goes here. Lorem, ipsum dolor sit amet consectetur
                                     adipisicing elit.
                                     Exercitationem nostrum officiis accusantium libero.
@@ -209,7 +341,7 @@ include('./includes/header.html');
                                 <img src="./images/img_blog.jpg" alt="Image Description" class="container img-fluid"
                                     height="100px">
                             </div>
-                            <div class="col-md-6 col-lg-6 col-sm-12  ">
+                            <div class="col-md-6 col-lg-6 col-sm-12 card_event_div ">
                                 <p class="text_6th ">Your content goes here. Lorem, ipsum dolor sit amet
                                     consectetur
                                     adipisicing elit.
@@ -228,7 +360,7 @@ include('./includes/header.html');
                                 <img src="./images/img_blog.jpg" alt="Image Description" class=" container img-fluid"
                                     height="100px">
                             </div>
-                            <div class="col-md-6 col-lg-6 col-sm-12 ">
+                            <div class="col-md-6 col-lg-6 col-sm-12 card_event_div">
                                 <p class="text_6th ">Your content goes here. Lorem, ipsum dolor sit amet
                                     consectetur
                                     adipisicing elit.
@@ -245,7 +377,7 @@ include('./includes/header.html');
 <br>
 
 <!-- 7th section complete -->
-<section>
+<!-- <section>
     <div class="container">
         <div class="text-center">
             <p class="display-4 font-weight-bold color_linear_gradient">Browse Online Course Categories</p>
@@ -326,24 +458,89 @@ include('./includes/header.html');
             </div>
         </div>
     </div>
-</section>
+</section> -->
 
-
+<br>
 <!-- 8th section -->
 <!-- <section>
     <p class="display-4 bold_font text-center color_linear_gradient ">Team To Help Students</p>
     <p class="letter_spacing bold_font text-center ">eStudy Guaranteed Success</p>
 </section> -->
+<br>
+<!-- 9 th section complete -->
+<!-- <section class="section_bg">
+    <p class="display-4 bold_font text-center color_linear_gradient">Explore Our Popular Courses</p>
+    <p class="letter_spacing bold_font text-center ">eStudy Guaranteed Success</p>
 
-<!-- 9 th section -->
-
-<!-- <section>
-    <p class="display-4 bold_font text-center color_linear_gradient ">What Students Saying</p>
-    <p class="letter_spacing bold_font text-center ">Testimonials</p>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 col-lg-3 col-sm-6 mt-3">
+                <div class="profile-card">
+                    <div class="d-flex align-items-center">
+                        <img src="./images/person1.jpg" alt="Profile 1" class="profile-img">
+                        <div class="profile-info">
+                            <h4 class="bold_font" style="margin-bottom: 0;  color: #EE3163;">Hasti</h4>
+                            <p class="bold_font">web developer</p>
+                        </div>
+                    </div>
+                    <p class="pt-4 bold_font">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus labore
+                        officiis,
+                        illum
+                    </p>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-3 col-sm-6 mt-3">
+                <div class="profile-card">
+                    <div class="d-flex align-items-center">
+                        <img src="./images/person2.jpg" alt="Profile 1" class="profile-img">
+                        <div class="profile-info">
+                            <h4 class="bold_font" style="margin-bottom: 0;  color: #EE3163;">Khushi</h4>
+                            <p class="bold_font">web developer</p>
+                        </div>
+                    </div>
+                    <p class="pt-4 bold_font">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus labore
+                        officiis,
+                        illum
+                    </p>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-3 col-sm-6 mt-3">
+                <div class="profile-card">
+                    <div class="d-flex align-items-center">
+                        <img src="./images/person3.jpg" alt="Profile 1" class="profile-img">
+                        <div class="profile-info">
+                            <h4 class="bold_font" style="margin-bottom: 0;  color: #EE3163;">Romit</h4>
+                            <p class="bold_font">Flutter developer</p>
+                        </div>
+                    </div>
+                    <p class="pt-4 bold_font">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus labore
+                        officiis,
+                        illum
+                    </p>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-3 col-sm-6 mt-3">
+                <div class="profile-card">
+                    <div class="d-flex align-items-center">
+                        <img src="./images/person4.jpg" alt="Profile 1" class="profile-img">
+                        <div class="profile-info">
+                            <h4 class="bold_font" style="margin-bottom: 0;  color: #EE3163;">Roshni</h4>
+                            <p class="bold_font">web developer</p>
+                        </div>
+                    </div>
+                    <p class="pt-4 bold_font">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus labore
+                        officiis,
+                        illum
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
 </section> -->
+
 <br>
 
-<!-- 10th section -->
+<!-- 10th section complete -->
 <!-- <section>
     <div class="container">
         <div class="text-center">
@@ -408,18 +605,16 @@ include('./includes/header.html');
         </div>
     </div>
 </section> -->
-
-
 <br><br>
 
-<!-- <button class="scroll-to-top" onclick="ScrollToTop()">
+<button class="scroll-to-top" onclick="ScrollToTop()">
     <span class="fa fa-arrow-up scroll_icon"></span>
-</button> -->
+</button>
 <?php
 include('./includes/footer.html');
 ?>
 
-<!-- <script src="./js/script.js"></script> -->
+<script src="./js/script.js"></script>
 </body>
 
 </html>
